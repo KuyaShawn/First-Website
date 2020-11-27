@@ -1,0 +1,187 @@
+<!-- Main Page -->
+<!DOCTYPE html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Arvo|Varela+Round&display=swap" rel="stylesheet">
+<title>Specials </title>
+<style>
+	h3{ font-weight:normal; font-family: 'Varela Round', sans-serif; font-size: 16px; }
+	h4{ font-weight:normal; font-family: 'Assistant', sans-serif; }
+	h1{ font-family: 'Arvo', serif;}
+	h2{ font-family: 'Arvo', serif;}
+	#copyright{ font-weight:normal; font-family: 'Assistant', sans-serif;}
+	
+	header {
+	background-image:url('https://eh5153jjbilvhwnq18672ksy-wpengine.netdna-ssl.com/wp-content/uploads/2015/12/transmission3.jpg');
+	background-size: 100% 175%;
+	width:100%;height:200px;
+	background-postion:center;
+	background-repeat:no-repeat;
+	overflow: hidden;
+	min-width:1900px;
+	}
+	
+	/*Nav bar List */
+	nav{min-width:1900px; font-weight:normal; font-family: 'Assistant', sans-serif;}
+	nav ul{list-style: none; text-align: center; border-top: 2px solid #a8a6a5; border-bottom: 2px solid #a8a6a5;
+	padding: 10px 0; background-color: #4C4C4C; display: flex; margin: auto; justify-content: space-between;}
+	nav ul li{cursor: pointer; color: #ebebeb; min-width: 80px; margin: auto;}
+	nav ul li a{text-decoration:none; color: #eee; }
+	nav ul li a:hover {background-image: url('https://www.pngkit.com/png/full/200-2004264_boton-out-beige.png'); 
+	background-size: 100% 100%; color: #27262c;  font-weight: bold;}
+	nav ul li a:active {transform: translateY(4px);}
+
+
+
+	/* footer */
+	footer{height: 400px; width: 1860px; margin-left: auto; margin-right: auto; margin-top: -20px; min-width:1900px;}
+	footer ul{position: relative;  
+	background-color: #4C4C4C; margin: auto;}
+	footer ul li { cursor: pointer; color: #ebebeb; min-width: 80px; margin: auto;}
+	footer ul li a{ text-decoration:none; color: #eee; }
+	footer ul li a:hover{background-image: url('https://www.pngkit.com/png/full/200-2004264_boton-out-beige.png'); 
+	background-size: 100% 100%; color: #27262c;  font-weight: bold;}
+	
+	.coupon {
+	  display: inline-block;
+	  border: 1px dashed black;
+	  margin-left: 50px;
+	  margin-right: 50px;
+	}
+	#offer {
+	display: none;
+	border: 2px dashed black;
+	margin: auto;
+	width: 50%;
+	height: 150px;
+	}
+	#offer2 {
+	display: none;
+	border: 2px dashed black;
+	margin: auto;
+	width: 50%;
+	height: 150px;
+	}
+	
+	#wrapperMain{width: 85%; height: 1100px; min-width:1900px;}
+	#Special{width: 100%; height: 600px; min-width:1900px;}
+	#Special2{width: 100%; height: 500px; min-width:1900px;}
+</style>
+<script type="text/javascript">
+	var timerID = setTimeout(showOffer, 3000);
+	
+	function showOffer(){
+		var offer = document.getElementById("offer");
+		offer.style.display = "block";
+		
+		var offer2 = document.getElementById("offer2");
+		offer2.style.display = "block";
+	}
+
+</script>
+</head>
+<body>
+<header>
+
+</header>
+<div id="nav_bar">
+<nav>
+	<ul>
+		<li><a href ="home.html">Home </a></li>
+		<li><a href ="service.html ">Services </a></li>
+		<li><a href ="about_us.html ">About Us </a></li>
+		<li><a href ="specials.html ">Specials </a></li>
+		<li><a href ="contact.html ">Contact Us </a></li>
+		<li><a href ="shop.html ">Shop </a></li>
+		<li><a href ="schedule.html ">Schedule </a></li>
+		<li><a href ="tips.html ">Car Care Tips </a></li>
+	</ul>
+</nav>
+</div>
+<div id = "wrapperMain" style="margin: auto;">
+	<div id = "Special" style="margin: auto; background-color: #eee; ">
+		<h1 style="text-align: center; position: relative; top: 0px;">Specials </h1>
+		<p ><h3 style="margin: auto; width: 700px; font-size: 18px;">
+			Here is a coupon for new and returning customers. 
+			We are glad that you choose us to work on your car! 
+			Also Coupon will be updated regularly so don't missout.
+		</h3></p>
+		<br>
+			<p ><h3 style="margin: auto; width: 700px; font-size: 18px; padding-left: 400px;">
+			*Coupons cannot be combined *
+		</h3></p>
+			<div id="offer">
+			  <h1 style="text-align: center;">Today Only!</h1>
+			  <h3 style="text-align: center; font-size: 22px;">Get all of your fluid changed for free!</h3>
+			</div>
+			<br>
+			<div id="offer2">
+			  <h1 style="text-align: center;">This Week Only!</h1>
+			  <h3 style="text-align: center; font-size: 22px;">Buy any fluid and get the other for free!</h3>
+			</div>
+	</div>
+		<div id = "Special2" style="margin: auto; background-color: #eee; ">
+			<div class="coupon" style="width: 344px; height: 378px;  background-color: #eee; margin-left: 100px; position: relative; top: -30px; ">
+				<h1 style="text-align: center; ">Save $200 </h1>
+				<p ><h3 style="margin: auto; width: 200px; position: relative; top: 50px; font-size: 18px;">
+					Save $200 off any job that is worth over $1500 on labor charges.
+				</h3></p>
+			</div>
+			<div class="coupon" style="width: 344px; height: 378px;  background-color: #eee; position: relative; top: -50px; ">
+				<h1 style="text-align: center; ">Save $100 </h1>
+				<p ><h3 style="margin: auto; width: 200px; position: relative; top: 50px; font-size: 18px;">
+					For a limited time only. Save up on $100 on any fluid changes.
+				</h3></p>
+			</div>
+			<div class="coupon" style="width: 344px; height: 378px;  background-color: #eee; position: relative; top: 38px;">
+				<h1 style="text-align: center; ">Save 10% </h1>
+				<p ><h3 style="margin: auto; width: 200px; position: relative; top: 50px; font-size: 18px;">
+					Save 10% on any Brake services. Services like replacing disc or drum brakes, 
+					resurfacing drums or rotors, and/or installing new brake pads.
+				</h3></p>
+			</div>
+			<div class="coupon" style="width: 344px; height: 378px;  background-color: #eee; position: relative; top: -25px;">
+				<h1 style="text-align: center; ">Save 30% </h1>
+				<p ><h3 style="margin: auto; width: 200px; position: relative; top: 50px; font-size: 18px;">
+					For a limited time only. Save up to 20% in tramission repairs or replacments.
+				</h3></p>
+			</div>
+	</div>
+	
+</div>
+
+<footer style = "background-color: #4C4C4C; width: 85%; height: 450px; ">
+<div id="footer_list" style="width: 100px; text-align:center; position: relative; top: 25px;">
+	<h1 style=" Color: white; position: relative; right: -50px;">Guide</h1>
+	<ul style=" list-style-type: none; justify-content: center; position: relative; right: -20px;">
+		<li><a href ="home.html"><h3 >Home </h3></a></li>
+		<li><a href ="service.html "><h3>Services </h3></a></li>
+		<li><a href ="about_us.html "><h3>About Us </h3></a></li>
+		<li><a href ="specials.html "><h3>Specials </h3></a></li>
+		<li><a href ="contact.html "><h3>Contact Us </h3></a></li>
+		<li><a href ="shop.html "><h3>Shop </h3></a></li>
+		<li><a href ="schedule.html "><h3>Schedule </h3></a></li>
+		<li><a href ="tips.html "><h3>Car Care Tips </h3></a></li>
+	</ul>
+</div>
+<div style="float: right; position: relative; top: -325px; right: 200px; ">
+	<h1 style="Color: white; position: relative; right: 50px; top: -50px; ">Direction</h1>
+</div>
+<div style=" float: right; position: relative;top: -300px; width: 500px; height: 0px">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86286.01506276183!2d-122.25772379254859!3d47.48138072570113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549008cc03bb6f23%3A0xcd42b24716babb9f!2sRenton%2C%20WA!5e0!3m2!1sen!2sus!4v1573873686618!5m2!1sen!2sus" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+
+<div style="position: relative; top: -280px; right: -550px; width: 650px; height: 350px;">
+<h1 style="Color: white; position: relative; top: -80px; left: 100px;">Proud sponsors</h1>
+<img style="position: relative; top: -40px; left: -50px;" src="https://kingstransmissions.com/Files/Images/Affiliations/amsoil.png">
+<img style="position: relative; top: -40px; left: 0px;" src="https://kingstransmissions.com/Files/Images/Affiliations/interstate-batteries-logo.png">
+<img style="position: relative; top: -40px; left: 50px;" src="https://kingstransmissions.com/Files/Images/Affiliations/napa-auto-care-center-long.png">
+<img style="position: relative; top: -10px; left: -50px;" src="https://kingstransmissions.com/Files/Images/Affiliations/oreilly-certified-auto-repair.jpg">
+<img style="position: relative; top: -10px; left: 0px;" src="https://static-media.meineke.com/resources/front/images/meineke-new-logo.png">
+</div>
+
+<div id="copyright" style ="text-align: center; color: #eee; position: relative; top: -320px;">Copyright &copy; 2019 Eashune Abenojar | Reliable Transmission Shop & Repair, LLC. All Rights Reserved </div>
+
+</footer>
+
+</body>
+</html>
